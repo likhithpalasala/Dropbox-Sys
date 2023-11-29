@@ -46,8 +46,8 @@ require_once 'DropboxClient.php';
 /** you have to create an app at @see https://www.dropbox.com/developers/apps and enter details below: */
 /** @noinspection SpellCheckingInspection */
 $dropbox = new DropboxClient( array(
-	'app_key' => "x8lidl9iixoiy0j",      // Put your Dropbox API key here
-	'app_secret' => "vm8ka0emvxln3nm",   // Put your Dropbox API secret here
+	'app_key' => "",      // Put your Dropbox API key here
+	'app_secret' => "",   // Put your Dropbox API secret here
 	'app_full_access' => false,
 ) );
 
